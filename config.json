@@ -1,0 +1,7 @@
+{
+  "league_path": "C:\\Riot Games\\League of Legends\\LeagueClient.exe",
+  "chrome_path": "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe",
+  "websites": ["https://midlaneacademy.com/dashboard/","https://www.youtube.com/","https://loldodgegame.com/dodge/"],
+  "wait_time": 600,
+  "close_discord": true
+}
