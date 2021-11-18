@@ -84,7 +84,7 @@ async def connect(connector):
 @connector.ws.register('/lol-honor-v2/v1/ballot', event_types=('UPDATE', 'CREATE', 'DELETE'))
 async def voted(connection, event):
     # check if the client just launches
-    # all code in the league client executes when the client launches, however requesting during this time returns
+    # all code in the league client executes when the client launches, however requesting summoner data during this time returns
     # error 404 which is different from when honoring finishes
     summoner = await connection.request('get',
                                         '/lol-summoner/v1/current-summoner')  # get summoner info, being used to
